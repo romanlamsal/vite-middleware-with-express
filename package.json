@@ -1,0 +1,31 @@
+{
+  "name": "vite-express",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Roman Lamsal <roman@notch.so>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec 'tsx ./server.ts'"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@lamsal-de/eslint-config": "^1.0.7",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@types/express": "^4.17.14",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.22.0",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.9.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vue-tsc": "^0.40.4"
+  }
+}
